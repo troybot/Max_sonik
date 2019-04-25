@@ -66,25 +66,25 @@ ali = {
 ssssys = ali[math.random(#ali)]
 sendPhoto(msg.chat_id_,msg.id_,data.photos_[0].sizes_[1].photo_.persistent_id_,
 '🎇┇'..ssssys..'\n'
-..'🎟┇ايديـڪ ❪ '..msg.sender_user_id_..' ❫\n'
+..'🎖┇ايديـڪ ❪ '..msg.sender_user_id_..' ❫\n'
 ..UserNameID
-..'👮‍♀️┇رتبتـڪ ❪ '..msg.TheRank..' ❫\n'
-..'🎲┇تفاعلڪ ❪ '..Get_Ttl(msgs)..' ❫\n'
-..'💬┇رسائلڪ ❪ '..msgs..' ❫\n'
-..'🚸┇سحكاتـڪ ❪ '..rfih..' ❫\n'
-..'📞┇جـهـاتڪ ❪ '..NumGha..' ❫\n'
-..'💎┇مجوهراتڪ ❪ '..nko..' ❫\n'
+..'🎫┇رتبتـڪ ❪ '..msg.TheRank..' ❫\n'
+..'🎳┇تفاعلڪ ❪ '..Get_Ttl(msgs)..' ❫\n'
+..'🗯┇رسائلڪ ❪ '..msgs..' ❫\n'
+..'🃏┇سحكاتـڪ ❪ '..rfih..' ❫\n'
+..'☎┇جـهـاتڪ ❪ '..NumGha..' ❫\n'
+..'💰┇مجوهراتڪ ❪ '..nko..' ❫\n'
 ,dl_cb,nil)
 else
 sendMsg(msg.chat_id_,msg.id_,
 '📬┇لا يمكنني عرض صورتك لانك قمت بحظر البوت او ليس لديك صوره ...!\n'..'['..UserNameID..']'
-..'🎟┇ايديـڪ ❪ '..msg.sender_user_id_..' ❫\n'
-..'📡┇رتبتـڪ ❪ '..msg.TheRank..' ❫\n'
-..'🎲┇تفاعلڪ ❪ '..Get_Ttl(msgs)..' ❫\n'
+..'🔖┇ايديـڪ ❪ '..msg.sender_user_id_..' ❫\n'
+..'📯┇رتبتـڪ ❪ '..msg.TheRank..' ❫\n'
+..'🔋┇تفاعلڪ ❪ '..Get_Ttl(msgs)..' ❫\n'
 ..'💬┇رسائلڪ ❪ '..msgs..' ❫\n'
-..'🚸┇سحكاتـڪ ❪ '..rfih..' ❫\n'
-..'📞┇الـجـهـاتڪ ❪ '..NumGha..' ❫\n'
-..'💎┇مجوهراتڪ ❪ '..nko..' ❫\n')
+..'🃏┇سحكاتـڪ ❪ '..rfih..' ❫\n'
+..'☎┇الـجـهـاتڪ ❪ '..NumGha..' ❫\n'
+..'💶┇مجوهراتڪ ❪ '..nko..' ❫\n')
 end
 end) 
 end ,nil)
@@ -941,7 +941,7 @@ local Get_info =  " \n✔️¦ ❪ الاحـصـائـيـات الـرسـائ
 .."🔊¦ الـصـوت ❪ `"..audio.."` ❫\n"
 .."🎞¦ الـفـيـديـو ❪ `"..video.."` ❫\n"
 .."📬¦ الـتـعـديـل ❪ `"..edited.."` ❫\n\n"
-.."📊¦ تـفـاعـلـك ❪ "..Get_Ttl(msgs).." ❫\n"
+.."📊¦ تـفـاعـلـڪ ❪ "..Get_Ttl(msgs).." ❫\n"
 .."┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉\n"
 return sendMsg(msg.chat_id_,msg.id_,Get_info)    
 end,nil)
@@ -967,11 +967,11 @@ local video = (redis:get(boss..':video:'..msg.chat_id_..':'..msg.sender_user_id_
 
 local Get_info ="👨🏽‍🔧¦ اهـلا بـك عزيزي في معلوماتك 🥀 \n"
 .."ـ.——————————\n"
-.."🗯¦ الاســم ❪ "..FlterName(data.first_name_..' '..(data.last_name_ or ""),25).." ❫\n"
-.."💠¦ المعرف ❪ "..ResolveUser(data).." ❫\n"
-.."⚜️¦ الايـدي ❪ `"..msg.sender_user_id_.."` ❫\n"
-.."🚸¦ رتبتــڪ ❪ "..msg.TheRank.." ❫\n"
-.."🔰¦ـ ❪ `"..msg.chat_id_.."` ❫\n"
+.."🏌¦ الاســم ❪ "..FlterName(data.first_name_..' '..(data.last_name_ or ""),25).." ❫\n"
+.."🎗¦ المعرف ❪ "..ResolveUser(data).." ❫\n"
+.."📮¦ الايـدي ❪ `"..msg.sender_user_id_.."` ❫\n"
+.."🎖¦ رتبتــڪ ❪ "..msg.TheRank.." ❫\n"
+.."💌¦ـ ❪ `"..msg.chat_id_.."` ❫\n"
 .."ـ.——————————\n"
 .." ❪ الاحـصـائـيـات الـرسـائـل ❫\n"
 .."💬¦ الـرسـائـل ❪ `"..msgs.."` ❫\n"
@@ -983,7 +983,7 @@ local Get_info ="👨🏽‍🔧¦ اهـلا بـك عزيزي في معلوم�
 .."🔊¦ الـصـوت ❪ `"..audio.."` ❫\n"
 .."🎞¦ الـفـيـديـو ❪ `"..video.."` ❫\n"
 .."📬¦ الـتـعـديـل ❪`"..edited.."` ❫\n\n"
-.."📊¦ تـفـاعـلـڪ ❪ "..Get_Ttl(msgs).." ❫\n"
+.."📈¦ تـفـاعـلـڪ ❪ "..Get_Ttl(msgs).." ❫\n"
 .."ـ.——————————\n"
 .."👨🏻‍💻¦ مـطـور البوت •⊱ "..SUDO_USER.." ⊰•\n"
 return sendMsg(msg.chat_id_,msg.id_,Get_info)    
@@ -1444,7 +1444,7 @@ end
 
 if (MsgText[1] == '' or MsgText[1] == '™') then
 if not msg.SudoBase then return "♦️*┇*هذا الامر يخص {المطور الاساسي} فقط  \n❕" end
-local GetVerison = https.request('https://github.com/maxsonikTELE/maxsonik.github.io/GetVersion.txt') or 0
+local GetVerison = https.request('https://github.com/maxsonik/maxsonik.github.io/GetVersion.txt') or 0
 if GetVerison > version then
 UpdateSourceStart = true
 sendMsg(msg.chat_id_,msg.id_,'🔛*┊* يوجد تحديث جديد الان \n📡*┊* جاري تنزيل وتثبيت التحديث  ...')
@@ -1925,32 +1925,23 @@ end
 
 if MsgText[1] == "سورس" or MsgText[1]=="السورس" then
 return [[
-📮┇اهلا بك في سورس سونيڪ🍃
-⚜┇اقوه السورسات في التلي
-ـــــــــــــــــــــــــــــــــــــــــــــــــــــــــ
-🗃┇لتنصيب السورس ↓↑
-💭┇افتح ترمنال جديد 
-⚜┇انسخ رابط كيثاب السورس  ↡
+❂┇܍اهـلآ بڪ في سورس  [سونيـڪ] ❂┇
 
-`git clone https://github.com/troybot/maxsoniksonik.git ;cd maxsoniksonik;chmod +x ins;./ins`
-ـــــــــــــــــــــــــــــــــــــــــــــــــــــــــ:
-راح يطلب منك معلومات ک تالي ↓
+❂┇܍ آقوى سورس 2019 ❂┇
 
-📮┇اولا تدخل التوكن ثم انتر
-🛠┇ثانيا معرف المطور ثم انتر 
-✨┇ومبروك نصبت سورس سونيڪ،
-ـــــــــــــــــــــــــــــــــــــــــــــــــــــــــ
-✴️┇لتحتار بالايدي السورس تلقائيا يستخرج الايدي من المعرف ويخزنه 
+❂┇܍ لتنصيب السورس ب ڪود واحد ❂┇
 
-📌┇بالنسبه للسكرين ميحتاج تسوي ابد السورس تلقائيا يشتغل نفسه بالسكرين بدون اي مشكله
+`git clone https://github.com/troybot/Max_sonik.git ;cd Max_sonik;chmod +x ins;./ins`
 
-✨┇ومبروك نصبت سورس ماكس تيجي الجديد ع توكن 
-ـــــــــــــــــــــــــــــــــــــــــــــــــــــــــ
-💭┇كود رن السورس 
-`./maxsonik/run`
-ـــــــــــــــــــــــــــــــــــــــــــــــــــــــــ
-📡┇[قناة السورس](t.me/Q2O10) [@Q2O10]
-👨🏻‍✈️┇[مـطـور الـسـورس](t.me/T20QT)
+❂┇܍ ڪود آلرن ./Max_sonik/run
+
+❂┇܍ ڪود حذف السورس rm -fr ./Max_sonik
+
+❂┇܍ السورس مايلزمه تحديث ❂┇
+
+❂┇܍ مطور السورس @Q2O10 ❂┇
+
+❂┇܍ قنـآتي للتواصل @T20QT ❂┇
 
 ]]
 end
@@ -3361,7 +3352,7 @@ elseif Text== "نورت"  then return sendMsg(msg.chat_id_,msg.id_,"نـ﴿💡�
 elseif Text== "نورتي"  then return sendMsg(msg.chat_id_,msg.id_,"نـ﴿💡﴾ـورك/ج ؏ـمـ😲ـآني وحہـ(🔥)ـہرگ بيـ🏡ـت جيہـْ✍ـہرآنيًٍِ")
 elseif Text== "الله"  then return sendMsg(msg.chat_id_,msg.id_,"راجع المكتب حبيبي عبالك سهل تحجي ويا الله 😒💔")
 elseif Text== "😹😹😹"  then return sendMsg(msg.chat_id_,msg.id_,"شـهضحڪًــة  ๋͜͡اٰ͡لحلوة بربڪً  ͜اٰ͡مڪً على شـو متوحمة😉😉")
-elseif Text== "حسوني"  then return sendMsg(msg.chat_id_,msg.id_,"على أشباهي أن يشعروا بالفخر ، لأني ضمن مجموعتهم🙂")
+elseif Text== "اسلام"  then return sendMsg(msg.chat_id_,msg.id_,"على أشباهي أن يشعروا بالفخر ، لأني ضمن مجموعتهم🙂")
 elseif Text== "رفع اثول"  then return sendMsg(msg.chat_id_,msg.id_,"🙋🏻‍♂¦ اهــلا عزيزي\n🎫¦ تم رفع العضو اثول الگروب🤪بنجاح✔️\n🛠¦ تمت إضافته إلى قائمه الثولان😹\n✓️")
 elseif Text== "تنزيل اثول"  then return sendMsg(msg.chat_id_,msg.id_,"🙋🏻‍♂¦ اهــلا عزيزي\n🎫¦ تم تنزيل العضو من ثولان الكروب✔️\n🛠¦ تمت الزاله من قامة الثولان😹\n✓️")
 elseif Text== "رفع جلب"  then return sendMsg(msg.chat_id_,msg.id_,"🙋🏻‍♂¦ اهــلا عزيزي\n🎫¦ تم رفع المتهم إلى جلب 🐶بنجاح✔️\n🛠¦ تمت إضافته إلى قائمه الجلاب😹\n✓️")
