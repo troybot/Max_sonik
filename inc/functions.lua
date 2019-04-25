@@ -569,21 +569,21 @@ local NumMsg = tonumber(msgs)
 if NumMsg < 80 then 
 MsgShow = 'انت كتير نايم 😁' 
 elseif NumMsg < 300 then
-MsgShow = 'الله بلخير😐💔' 
+MsgShow = 'ماڪو شي 😑' 
 elseif NumMsg < 900 then 
-MsgShow = 'وينك وين التفاعل 😐' 
+MsgShow = 'انت غير متفاعل  😐' 
 elseif NumMsg < 5000 then 
-MsgShow = 'استمر بطل😻💪🏻' 
+MsgShow = 'استمر حبي😻💪🏻' 
 elseif NumMsg < 9000 then 
-MsgShow = 'جيد جدن😻♥' 
+MsgShow = 'تفاعلڪ يخبل 😻♥' 
 elseif NumMsg < 10000 then 
-MsgShow = 'ملك التفاعل😾👊🏻' 
+MsgShow = 'تفاعلڪ واو 😍' 
 elseif NumMsg < 13000 then 
-MsgShow = 'مــلــک✔️💯😻'
+MsgShow = 'تفاعلڪ نآر 🔥'
 elseif NumMsg < 100000 then 
-MsgShow = 'ملكوت التفاعل استمر😻❤️' 
+MsgShow = 'اسطوره بتفاعلڪ 😘' 
 elseif NumMsg > 150000 then 
-MsgShow = 'ملك التلكرام😻♥' 
+MsgShow = 'ملڪ بتفاعلڪ 😍💖' 
 end
 return MsgShow 
 end
