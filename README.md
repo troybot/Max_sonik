@@ -7,7 +7,7 @@
 
 `git clone https://github.com/troybot/Max_sonik.git ;cd Max_sonik;chmod +x ins;./ins`
 
-❂┇܍ السورس مايلزمه تحديث ❂┇
+
 
 ❂┇܍ مطور السورس @Q2O10 ❂┇
 
